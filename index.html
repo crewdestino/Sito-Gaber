@@ -4,30 +4,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>GaberArt</title>
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-  <main>
-   <div id="name-container"></div>
-    <h2 id="name">Hello my name is GABER</h2>
-   </div>
-  </main>
+    <main>
+      <div id="name-container"></div>
+        <h2 id="name">Hello my name is GABER</h2>
+      </div>
+  
       <section id="bio">
         <div id="bio-container">
         <p> 
-          <a id="tattoo" href="." rel="-">TATTOO</a> artist. something about it...
+          <a id="tattoo" href="#tattoos">TATTOO</a> artist. something about it...
         </p>
         <p>
-          <a id="street" href="." rel="-">STREET</a> artist. something about it...
+          <a id="street" href="#street">STREET</a> artist. something about it...
         </p>
         </div>
-      </section>      
+      </section>
+
       <section id="button">
         <div class="shape">
-         <button class="get-in-touch" type="button">GET IN TOUCH</button>
+         <button class="get-in-touch" type="button" href="mailto:someone@example.com">GET IN TOUCH</button>
         </div>
       </section>
 
@@ -44,11 +45,15 @@
 
       <section id="icon">
         <div class="icons-container">
-          <i class="fas fa-instagram">Insta Icon</i>
-            <a id="Instagram" href="." rel="-">Intagram</a>
+          <i class="fas fa-instagram" aria-hidden="true">Insta icon</i>
+            <a id="Instagram" href="#instagram">Intagram</a>
           <i class="fas fa-cat">About Me Icon</i>
-            <a id="about-me" href="." rel="-">About Me</a>
+            <a id="about-me" href="#about-me">About Me</a>
         </div>
       </section>
+    </main> 
+
+    <footer><span class="heart">♥</span>GaberArt.com</footer>
   </body>
+
 </html>
