@@ -2,6 +2,12 @@ body {
     background: linear-gradient(80deg, #fd3b55 60%, #4bffba 60%);
 }
 
+#name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #name {
     color: #293133;
     font-size: large;
