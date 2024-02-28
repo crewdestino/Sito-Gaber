@@ -1,3 +1,14 @@
 body {
-    background-color: green;
+    background: linear-gradient(80deg, #fd3b55 60%, #4bffba 60%);
+}
+
+#name {
+    color: #293133;
+    font-size: large;
+    font-family: 'copperplate', 'Impact', 'fantasy', sans-serif;
+    font-weight: 800;
+}
+
+span {
+    font-style: italic;
 }
